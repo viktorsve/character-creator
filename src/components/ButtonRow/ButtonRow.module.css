@@ -1,2 +1,5 @@
-.buttonRow {
+@media only screen and (max-width: 600px) {
+  .buttonRow {
+    overflow-x: auto;
+  }
 }
