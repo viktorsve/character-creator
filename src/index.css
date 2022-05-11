@@ -43,3 +43,10 @@ body {
 
   background: hsl(195deg, 20%, 86%);
 }
+
+@media only screen and (max-width: 600px) {
+  .PerspectiveBar {
+    display: none;
+  }
+}
+

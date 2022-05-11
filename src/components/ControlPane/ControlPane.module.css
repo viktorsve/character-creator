@@ -20,7 +20,6 @@
   position: sticky;
   left: 0px;
 
-  padding-bottom: 20px;
   margin: 0;
   /* Optical centering */
   margin-bottom: -4px;
@@ -38,7 +37,7 @@
   .controlPane {
     display: inline-block;
 
-    width: 85%;
+    max-width: 85%;
     margin: 0px 7px;
   }
 
