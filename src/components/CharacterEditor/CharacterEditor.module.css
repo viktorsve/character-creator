@@ -1,6 +1,4 @@
 .characterEditor {
-  isolation: isolate;
-
   padding-top: 128px;
   padding-bottom: 64px;
 }
@@ -25,11 +23,13 @@
 
 .characterWrapper {
   position: fixed;
+
   top: 10%;
   left: 60%;
   bottom: 5%;
 
   min-height: 500px;
+  z-index: 1;
 }
 
 .controlColumn {
@@ -39,7 +39,7 @@
 @media only screen and (max-width: 600px) {
   .characterEditor {
     padding-top: 13%;
-    padding-bottom: 20px;
+    padding-bottom: 70px;
   }
 
   .header {
@@ -48,7 +48,7 @@
     padding-bottom: 90%;
     padding-left: 32px;
   }
-  
+
   .title {
     font-size: 1.7rem;
   }

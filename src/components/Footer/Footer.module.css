@@ -4,6 +4,7 @@
   background: hsl(0deg, 0%, 5%);
   color: white;
   text-align: center;
+  z-index: 2;
 }
 
 .footer a {
